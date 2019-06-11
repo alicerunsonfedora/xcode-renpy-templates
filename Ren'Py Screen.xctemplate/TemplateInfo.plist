@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Icon</key>
+	<string>TemplateIcon</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Screen name:</string>
+			<key>Description</key>
+			<string>The name of the new screen</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>new_screen</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>zOrder</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Order in Z level:</string>
+			<key>Description</key>
+			<string>The z order, or how high the screen should be in the screen hiearchy</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>Default</key>
+			<string>1</string>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>isModal</string>
+			<key>Name</key>
+			<string>Make a modal</string>
+			<key>Description</key>
+			<string>Whether the new screen will be a modal or not</string>
+			<key>Type</key>
+			<string>checkbox</string>
+			<key>Default</key>
+			<string>false</string>
+		</dict>
+	</array>
+	<key>Kind</key>
+	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
+</dict>
+</plist>
